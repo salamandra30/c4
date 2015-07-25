@@ -1,11 +1,10 @@
 <?
 
 $pruebaOrientadaObjetos = new GetMultiplos();
-$pruebaOrientadaObjetos -> n();
 
 class GetMultiplos{
 
-public function n(){
+function __construct(){
 $u = 0;
 $acum = 0;
 
